@@ -11,6 +11,7 @@
   <title>Avenue Fashion</title>
   <link href="styles/bootstrap.min.css" rel="stylesheet">
   <link href="styles/backend.css" rel="stylesheet">
+  <link href="../styles/backend.css" rel="stylesheet">
   <link href="styles/style.css" rel="stylesheet">
 
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">

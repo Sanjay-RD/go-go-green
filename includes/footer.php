@@ -1,6 +1,6 @@
 <footer class="page-footer">
 
-	<div class="footer-nav">
+	<!-- <div class="footer-nav">
 		<div class="container clearfix">
 
 			<div class="footer-nav__col footer-nav__col--info">
@@ -87,7 +87,7 @@
 			</div>
 
 		</div>
-	</div>
+	</div> -->
 
 	<!-- <div class="banners">
 		<div class="container clearfix">
@@ -118,16 +118,16 @@
 		<div class="container clearfix">
 
 			<div class="copyright">
-				&copy; 2018 Avenue Fashion&trade;
+				&copy; 2018 Go Go Green&trade;
 			</div>
 
-			<div class="developer">
+			<!-- <div class="developer">
 				Dev by Yasser Dalouzi
 			</div>
 
 			<div class="designby">
 				Design by Yasser Dalouzi
-			</div>
+			</div> -->
 		</div>
 	</div>
 </footer>

@@ -48,23 +48,23 @@ $customer_image = $row_customer['customer_image'];
 
 </div><!-- form-group Ends -->
 
-<div class="form-group" ><!-- form-group Starts -->
+<!-- <div class="form-group" >
 
 <label> Customer Country: </label>
 
 <input type="text" name="c_country" class="form-control" required value="<?php echo $customer_country; ?>">
 
 
-</div><!-- form-group Ends -->
+</div> -->
 
-<div class="form-group" ><!-- form-group Starts -->
+<!-- <div class="form-group" >
 
 <label> Customer City: </label>
 
 <input type="text" name="c_city" class="form-control" required value="<?php echo $customer_city; ?>">
 
 
-</div><!-- form-group Ends -->
+</div> -->
 
 <div class="form-group" ><!-- form-group Starts -->
 

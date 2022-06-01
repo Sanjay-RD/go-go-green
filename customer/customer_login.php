@@ -1,4 +1,4 @@
-<div class="box" ><!-- box Starts -->
+<div class="box" style="width: 400px;margin: 30px auto !important;"><!-- box Starts -->
 
 <div class="box-header" ><!-- box-header Starts -->
 
@@ -6,13 +6,13 @@
 
 <h1>Login</h1>
 
-<p class="lead" >Already our Customer</p>
+<!-- <p class="lead" >Already our Customer</p> -->
 
 
 </center>
 
 <p class="text-muted" >
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+Login If You Already Have Account Or Register New Account
 
 </p>
 
@@ -37,11 +37,11 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 <input type="password" class="form-control" name="c_pass" required >
 
-<h4 align="center">
+<!-- <h4 align="center">
 
 <a href="forgot_pass.php"> Forgot Password </a>
 
-</h4>
+</h4> -->
 
 </div><!-- form-group Ends -->
 

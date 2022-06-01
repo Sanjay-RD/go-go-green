@@ -11,8 +11,7 @@ include("includes/main.php");
 
 
   <!-- MAIN -->
-  <main>
-    <!-- HERO -->
+  <!-- <main>
     <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">SHOP</span> Cart
@@ -20,7 +19,7 @@ include("includes/main.php");
       <p class="nero__text">
       </p>
     </div>
-  </main>
+  </main> -->
 
 
 
@@ -65,7 +64,7 @@ $count = mysqli_num_rows($run_cart);
 
 <th>Unit Price</th>
 
-<th>Size</th>
+<!-- <th>Size</th> -->
 
 <th colspan="1">Delete</th>
 
@@ -134,11 +133,11 @@ $<?php echo $only_price; ?>.00
 
 </td>
 
-<td>
+<!-- <td>
 
 <?php echo $pro_size; ?>
 
-</td>
+</td> -->
 
 <td>
 <input type="checkbox" name="remove[]" value="<?php echo $pro_id; ?>">
@@ -170,19 +169,19 @@ $<?php echo $sub_total; ?>.00
 
 </table><!-- table Ends -->
 
-<div class="form-inline pull-right"><!-- form-inline pull-right Starts -->
+<!-- <div class="form-inline pull-right">
 
-<div class="form-group"><!-- form-group Starts -->
+<div class="form-group">
 
 <label>Coupon Code : </label>
 
 <input type="text" name="code" class="form-control">
 
-</div><!-- form-group Ends -->
+</div>
 
 <input class="btn btn-primary" type="submit" name="apply_coupon" value="Apply Coupon Code" >
 
-</div><!-- form-inline pull-right Ends -->
+</div> -->
 
 </div><!-- table-responsive Ends -->
 
@@ -347,19 +346,11 @@ echo @$up_cart = update_cart();
 
 <div id="row same-height-row"><!-- row same-height-row Starts -->
 
-<div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 Starts -->
 
-<div class="box same-height headline"><!-- box same-height headline Starts -->
-
-<h3 class="text-center"> You may like these Products </h3>
-
-</div><!-- box same-height headline Ends -->
-
-</div><!-- col-md-3 col-sm-6 Ends -->
 
 <?php
 
-$get_products = "select * from products order by rand() LIMIT 0,3";
+$get_products = "select * from products order by rand() LIMIT 0,4";
 
 $run_products = mysqli_query($con,$get_products);
 
@@ -416,7 +407,6 @@ $product_label = "
 
 <a class='label sale' href='#' style='color:black;'>
 
-<div class='thelabel'>$pro_label</div>
 
 <div class='label-background'> </div>
 
@@ -441,13 +431,6 @@ echo "
 
 <div class='text' >
 
-<center>
-
-<p class='btn btn-warning'> $manufacturer_name </p>
-
-</center>
-
-<hr>
 
 <h3><a href='$pro_url' >$pro_title</a></h3>
 

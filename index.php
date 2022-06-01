@@ -16,6 +16,27 @@ include("includes/main.php");
       <a href="shop.php" class="btn1">View all products
 </a>
     </div>
+
+  <!-- latest product -->
+  <!-- <div class="wrapper">
+            <h1>Latest Collection<h1>
+            
+      </div>
+      <div id="content" class="container">
+
+    <div class="row">
+
+    <?php
+
+    getLatest();
+
+    ?>
+
+    </div>
+
+    </div> -->
+  <!-- latest product end -->
+
     <!-- Main -->
     <div class="wrapper">
             <h1>Featured Collection<h1>
@@ -37,10 +58,15 @@ include("includes/main.php");
     </div><!-- row Ends -->
 
     </div><!-- container Ends -->
+
+
+
+
+
     <!-- FOOTER -->
     <footer class="page-footer">
 
-      <div class="footer-nav">
+      <!-- <div class="footer-nav">
         <div class="container clearfix">
 
           <div class="footer-nav__col footer-nav__col--info">
@@ -127,7 +153,7 @@ include("includes/main.php");
           </div>
 
         </div>
-      </div>
+      </div> -->
 
       <!-- <div class="banners">
         <div class="container clearfix">
@@ -158,16 +184,16 @@ include("includes/main.php");
         <div class="container clearfix">
 
           <div class="copyright">
-            &copy; <?php echo date("Y");?> Ecommerce Website-PHP&trade;
+            &copy; <?php echo date("Y");?> Go Go Green&trade;
           </div>
 
-          <div class="developer">
-            Developed by Yasser Dalouzi
+          <!-- <div class="developer">
+            Developed by xyz
           </div>
 
           <div class="designby">
-            Design by Yasser Dalouzi
-          </div>
+            Design by xyz
+          </div> -->
 
         </div>
       </div>

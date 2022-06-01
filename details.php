@@ -69,7 +69,7 @@ $product_label = "
 
 <a class='label sale' href='#' style='color:black;'>
 
-<div class='thelabel'>$pro_label</div>
+
 
 <div class='label-background'> </div>
 
@@ -92,8 +92,7 @@ $p_cat_title = $row_p_cat['p_cat_title'];
 
 ?>
 
-  <main>
-    <!-- HERO -->
+  <!-- <main>
     <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">Product </span>View
@@ -101,7 +100,7 @@ $p_cat_title = $row_p_cat['p_cat_title'];
       <p class="nero__text">
       </p>
     </div>
-  </main>
+  </main> -->
 
 <div id="content" ><!-- content Starts -->
 <div class="container" ><!-- container Starts -->
@@ -132,19 +131,19 @@ $p_cat_title = $row_p_cat['p_cat_title'];
 
 <div class="item active">
 <center>
-<img src="admin_area/product_images/<?php echo $pro_img1; ?>" class="img-responsive">
+<img src="admin_area/product_images/<?php echo $pro_img1; ?>" class="img-responsive" style="width:500px" >
 </center>
 </div>
 
 <div class="item">
 <center>
-<img src="admin_area/product_images/<?php echo $pro_img2; ?>" class="img-responsive">
+<img src="admin_area/product_images/<?php echo $pro_img2; ?>" class="img-responsive" style="width:500px">
 </center>
 </div>
 
 <div class="item">
 <center>
-<img src="admin_area/product_images/<?php echo $pro_img3; ?>" class="img-responsive">
+<img src="admin_area/product_images/<?php echo $pro_img3; ?>" class="img-responsive" style="width:500px">
 </center>
 </div>
 
@@ -274,11 +273,11 @@ if($status == "product"){
 
 </div><!-- form-group Ends -->
 
-<div class="form-group" ><!-- form-group Starts -->
+<div class="form-group" style="display: none">
 
 <label class="col-md-5 control-label" >Product Size</label>
 
-<div class="col-md-7" ><!-- col-md-7 Starts -->
+<div class="col-md-7" >
 
 <select name="product_size" class="form-control" >
 
@@ -290,7 +289,7 @@ if($status == "product"){
 
 </select>
 
-</div><!-- col-md-7 Ends -->
+</div>
 
 
 </div><!-- form-group Ends -->
@@ -320,7 +319,7 @@ if($status == "product"){
 
 </div><!-- form-group Ends -->
 
-<div class="form-group" ><!-- form-group Starts -->
+<div class="form-group" style="display:none"><!-- form-group Starts -->
 
 <label class="col-md-5 control-label" >Bundle Size</label>
 
@@ -505,7 +504,7 @@ echo "<script>window.open('$pro_url','_self')</script>";
 
 <a href="#" class="thumb" >
 
-<img src="admin_area/product_images/<?php echo $pro_img1; ?>" class="img-responsive" >
+<img src="admin_area/product_images/<?php echo $pro_img1; ?>" class="img-responsive" style='height: 125px;width:100%' >
 
 </a>
 
@@ -515,7 +514,7 @@ echo "<script>window.open('$pro_url','_self')</script>";
 
 <a href="#" class="thumb" >
 
-<img src="admin_area/product_images/<?php echo $pro_img2; ?>" class="img-responsive" >
+<img src="admin_area/product_images/<?php echo $pro_img2; ?>" class="img-responsive" style='height: 125px;width:100%' >
 
 </a>
 
@@ -525,7 +524,7 @@ echo "<script>window.open('$pro_url','_self')</script>";
 
 <a href="#" class="thumb" >
 
-<img src="admin_area/product_images/<?php echo $pro_img3; ?>" class="img-responsive" >
+<img src="admin_area/product_images/<?php echo $pro_img3; ?>" class="img-responsive" style='height: 125px;width:100%' >
 
 </a>
 
@@ -567,11 +566,6 @@ Features
 
 </a><!-- btn btn-primary tab Ends -->
 
-<a class="btn btn-info tab" style="margin-bottom:10px;" href="#video" data-toggle="tab"><!-- btn btn-primary tab Starts -->
-
-Sounds and Videos
-
-</a><!-- btn btn-primary tab Ends -->
 
 <hr style="margin-top:0px;">
 
@@ -610,19 +604,19 @@ if($status == "product"){
 
 ?>
 
-<div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 Starts -->
+<!-- <div class="col-md-3 col-sm-6">
 
-<div class="box same-height headline"><!-- box same-height headline Starts -->
+<div class="box same-height headline">
 
 <h3 class="text-center"> You may also like these Products: We provide you top 3 product items. </h3>
 
-</div><!-- box same-height headline Ends -->
+</div>
 
-</div><!-- col-md-3 col-sm-6 Ends -->
+</div> -->
 
 <?php
 
-$get_products = "select * from products order by rand() LIMIT 0,3";
+$get_products = "select * from products order by rand() LIMIT 0,4";
 
 $run_products = mysqli_query($con,$get_products);
 
@@ -679,7 +673,6 @@ $product_label = "
 
 <a class='label sale' href='#' style='color:black;'>
 
-<div class='thelabel'>$pro_label</div>
 
 <div class='label-background'> </div>
 
@@ -698,19 +691,12 @@ echo "
 
 <a href='$pro_url' >
 
-<img src='admin_area/product_images/$pro_img1' class='img-responsive' >
+<img src='admin_area/product_images/$pro_img1' class='img-responsive' style='height:245px' >
 
 </a>
 
 <div class='text' >
 
-<center>
-
-<p class='btn btn-warning'> $manufacturer_name </p>
-
-</center>
-
-<hr>
 
 <h3><a href='$pro_url' >$pro_title</a></h3>
 

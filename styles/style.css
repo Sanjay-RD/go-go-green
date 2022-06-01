@@ -234,6 +234,7 @@ text-align: center;
 
 #content {
 padding-left:25px;
+    margin-top: 30px;
 
 }
 
@@ -255,6 +256,7 @@ background:#fff;
 border: solid 1px #e6e6e6;
 box-sizing: border-box;
 margin-bottom: 30px;
+height: 435px;
 }
 
 #content .product .text p.price {
@@ -374,7 +376,7 @@ margin-bottom: 30px;
 font-size: 30px;
 font-weight: 300;
 text-align: center;
-margin-top: 40px;
+/* margin-top: 40px; */
 
 }
 

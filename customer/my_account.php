@@ -16,8 +16,7 @@ include("includes/main.php");
 
 
 ?>
-  <main>
-    <!-- HERO -->
+  <!-- <main>
     <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">My </span>Account
@@ -25,14 +24,14 @@ include("includes/main.php");
       <p class="nero__text">
       </p>
     </div>
-  </main>
+  </main> -->
 
 <div id="content" ><!-- content Starts -->
 <div class="container" ><!-- container Starts -->
 
 
 
-<div class="col-md-12"><!-- col-md-12 Starts -->
+<div class="col-md-12">
 
 <?php
 
@@ -52,7 +51,7 @@ if(!empty($customer_confirm_code)){
 
 ?>
 
-<div class="alert alert-danger"><!-- alert alert-danger Starts -->
+<!-- <div class="alert alert-danger">
 
 <strong> Warning! </strong> Please Confirm Your Email and if you have not received your confirmation email
 
@@ -62,7 +61,7 @@ Send Email Again
 
 </a>
 
-</div><!-- alert alert-danger Ends -->
+</div> -->
 
 <?php } ?>
 

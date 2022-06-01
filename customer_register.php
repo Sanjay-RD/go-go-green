@@ -12,8 +12,7 @@ include("includes/main.php");
 
 
   <!-- MAIN -->
-  <main>
-    <!-- HERO -->
+  <!-- <main>
     <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">Register</span> AT AVE
@@ -21,7 +20,7 @@ include("includes/main.php");
       <p class="nero__text">
       </p>
     </div>
-  </main>
+  </main> -->
 
 
 <div id="content" ><!-- content Starts -->
@@ -33,7 +32,7 @@ include("includes/main.php");
 
 <div class="col-md-12" ><!-- col-md-12 Starts -->
 
-<div class="box" ><!-- box Starts -->
+<div class="box" style="width:600px;margin:30px auto;"><!-- box Starts -->
 
 <div class="box-header" ><!-- box-header Starts -->
 
@@ -119,21 +118,21 @@ include("includes/main.php");
 </div><!-- form-group Ends -->
 
 
-<div class="form-group"><!-- form-group Starts -->
+<!-- <div class="form-group">
 
 <label> Customer Country </label>
 
 <input type="text" class="form-control" name="c_country" required>
 
-</div><!-- form-group Ends -->
+</div> -->
 
-<div class="form-group"><!-- form-group Starts -->
+<!-- <div class="form-group">
 
 <label> Customer City </label>
 
 <input type="text" class="form-control" name="c_city" required>
 
-</div><!-- form-group Ends -->
+</div> -->
 
 <div class="form-group"><!-- form-group Starts -->
 
