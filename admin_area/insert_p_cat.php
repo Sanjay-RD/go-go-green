@@ -81,7 +81,7 @@ else {
 
 </div><!-- form-group Ends -->
 
-<div class="form-group" ><!-- form-group Starts -->
+<!-- <div class="form-group" >
 
 <label class="col-md-3 control-label" > Select Product Category Image</label>
 
@@ -91,7 +91,7 @@ else {
 
 </div>
 
-</div><!-- form-group Ends -->
+</div> -->
 
 <div class="form-group" ><!-- form-group Starts -->
 

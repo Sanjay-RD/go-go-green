@@ -691,7 +691,7 @@ echo "
 
 <a href='$pro_url' >
 
-<img src='admin_area/product_images/$pro_img1' class='img-responsive' style='height:245px' >
+<img src='admin_area/product_images/$pro_img1' class='img-responsive' style='height:245px;width:100%' >
 
 </a>
 

@@ -291,7 +291,7 @@ echo "
 
 <a href='$pro_url' >
 
-<img src='admin_area/product_images/$pro_img1' class='img-responsive image-container' style='height: 245px;' >
+<img src='admin_area/product_images/$pro_img1' class='img-responsive image-container' style='height: 245px;width:100%' >
 
 </a>
 
@@ -473,7 +473,6 @@ $product_label = "
 
 <a class='label sale' href='#' style='color:black;'>
 
-<div class='thelabel'>$pro_label</div>
 
 <div class='label-background'> </div>
 
@@ -498,13 +497,6 @@ echo "
 
 <div class='text' >
 
-<center>
-
-<p class='btn btn-warning'> $manufacturer_name </p>
-
-</center>
-
-<hr>
 
 <h3><a href='$pro_url' >$pro_title</a></h3>
 
