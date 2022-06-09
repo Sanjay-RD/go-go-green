@@ -81,7 +81,7 @@ if(!isset($_SESSION['customer_email'])){
               </a>
               </li>
 
-            <li class="categories__item">
+            <!-- <li class="categories__item">
               <a class="categories__link" href="#">
                 Categories
                <i class="icon-down-open-1"></i>
@@ -89,7 +89,6 @@ if(!isset($_SESSION['customer_email'])){
               <div class="dropdown dropdown-1 dropdown--lookbook">
                 <div class="clearfix">
                   <div class="dropdown__half">
-                    <!-- <div class="dropdown__heading">Account Settings</div> -->
                     <ul class="dropdown__items">
                       <?php
                           $get_p_cats = "select * from product_categories where p_cat_top='yes'";
@@ -153,36 +152,24 @@ if(!isset($_SESSION['customer_email'])){
                     </ul>
                     
                   </div>
-                  <!-- <div class="dropdown__half">
-                    <div class="dropdown__heading"></div>
-                    <ul class="dropdown__items">
-                      <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">Edit Your Account</a>
-                      </li>
-                      <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">Change Password</a>
-                      </li>
-                      <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">Delete Account</a>
-                      </li>
-                    </ul>
-                  </div> -->
+                  
                 </div>
                 
               </div>
-            </li>
+            </li> -->
 
             <li class="categories__item">
-              <a class="categories__link categories__link--active" href="shop.php">
+            <!-- categories__link--active -->
+              <a class="categories__link " href="shop.php">
                 Shop
               </a>
             </li>
 
-            <!-- <li class="categories__item">
-              <a class="categories__link" href="localstore.php">
-                Local Stores
+            <li class="categories__item">
+              <a class="categories__link" href="about.php">
+                About Us
               </a>
-            </li> -->
+            </li>
 
           <li class="categories__item cart__value">
             <?php

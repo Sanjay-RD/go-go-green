@@ -25,7 +25,7 @@ $order_id = $_GET['order_id'];
 
 
 <div id="content" ><!-- content Starts -->
-<div class="container" ><!-- container Starts -->
+<div class="container" style="display:flex"> <!-- container Starts -->
 
 
 <div class="col-md-3"><!-- col-md-3 Starts -->
@@ -84,13 +84,15 @@ $order_id = $_GET['order_id'];
 </div><!-- form-group Ends -->
 
 
-<div class="form-group"><!-- form-group Starts -->
+<!-- form-group Starts -->
+<!-- <div class="form-group">
 
 <label>Omni Code:</label>
 
 <input type="text" class="form-control" name="code" required>
 
-</div><!-- form-group Ends -->
+</div> -->
+<!-- form-group Ends -->
 
 
 <div class="form-group"><!-- form-group Starts -->
@@ -171,11 +173,7 @@ echo "<script>window.open('my_account.php?my_orders','_self')</script>";
 
 
 
-<?php
 
-include("includes/footer.php");
-
-?>
 
 <script src="js/jquery.min.js"> </script>
 

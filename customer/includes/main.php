@@ -65,7 +65,7 @@ if(!isset($_SESSION['customer_email'])){
       <div class="container clearfix">
 
         <div class="logo">
-          <a class="logo__link" href="/ecommerce-website-php/index.php">
+          <a class="logo__link" href="/go-go-green/index.php">
             <!-- <img class="logo__img" src="images/logo.png" alt="Avenue fashion logotype" width="237" height="19"> -->
             <h1 class="logo__img">Go Go Green</h1>
           </a>
@@ -75,7 +75,7 @@ if(!isset($_SESSION['customer_email'])){
           <ul class="categories">
 
             <li class="categories__item">
-              <a class="categories__link" href="ecommerce-website-php/index.php">
+              <a class="categories__link" href="/go-go-green/index.php">
                 Home
                
               </a>
@@ -173,16 +173,16 @@ if(!isset($_SESSION['customer_email'])){
             </li>
 
             <li class="categories__item">
-              <a class="categories__link categories__link--active" href="shop.php">
+              <a class="categories__link" href="/go-go-green/shop.php">
                 Shop
               </a>
             </li>
 
-            <!-- <li class="categories__item">
-              <a class="categories__link" href="localstore.php">
-                Local Stores
+            <li class="categories__item">
+              <a class="categories__link" href="/go-go-green/about.php">
+               About Us
               </a>
-            </li> -->
+            </li>
 
           <li class="categories__item cart__value">
             <?php

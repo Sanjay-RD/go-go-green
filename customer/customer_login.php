@@ -37,11 +37,11 @@ Login If You Already Have Account Or Register New Account
 
 <input type="password" class="form-control" name="c_pass" required >
 
-<!-- <h4 align="center">
+<h4 align="center">
 
 <a href="forgot_pass.php"> Forgot Password </a>
 
-</h4> -->
+</h4>
 
 </div><!-- form-group Ends -->
 

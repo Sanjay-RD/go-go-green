@@ -44,11 +44,13 @@ include("includes/main.php");
 
 <center><!-- center Starts -->
 
-<ul class="pagination" ><!-- pagination Starts -->
+<!-- pagination Starts -->
+<!-- <ul class="pagination" >
 
 <?php getPaginator(); ?>
 
-</ul><!-- pagination Ends -->
+</ul> -->
+<!-- pagination Ends -->
 
 </center><!-- center Ends -->
 

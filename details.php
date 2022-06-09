@@ -85,7 +85,7 @@ $run_p_cat = mysqli_query($con,$get_p_cat);
 
 $row_p_cat = mysqli_fetch_array($run_p_cat);
 
-$p_cat_title = $row_p_cat['p_cat_title'];
+// $p_cat_title = $row_p_cat['p_cat_title'];
 
 
 

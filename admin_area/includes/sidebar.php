@@ -164,7 +164,8 @@ else {
 
 </li><!-- Products li Ends -->
 
-<li><!-- Bundles Li Starts --->
+<!-- Bundles Li Starts --->
+<!-- <li>
 
 <a href="#" data-toggle="collapse" data-target="#bundles">
 
@@ -186,19 +187,21 @@ else {
 
 </ul>
 
-</li><!-- Bundles Li Ends --->
+</li> -->
+<!-- Bundles Li Ends --->
 
-<li><!-- relations li Starts -->
+<!-- relations li Starts -->
+<!-- <li>
 
-<a href="#" data-toggle="collapse" data-target="#relations"><!-- anchor Starts -->
+<a href="#" data-toggle="collapse" data-target="#relations">
 
 <i class="fa fa-fw fa-retweet"></i> Assign Products To Bundles Relations
 
 <i class="fa fa-fw fa-caret-down"></i>
 
-</a><!-- anchor Ends -->
+</a>
 
-<ul id="relations" class="collapse"><!-- collapse Starts -->
+<ul id="relations" class="collapse">
 
 <li>
 
@@ -213,25 +216,27 @@ else {
 
 </li>
 
-</ul><!-- collapse Ends -->
+</ul>
 
 
-</li><!-- relations li Ends -->
+</li> -->
+<!-- relations li Ends -->
 
 
 
-<li><!-- manufacturer li Starts -->
+<!-- manufacturer li Starts -->
+<!-- <li>
 
-<a href="#" data-toggle="collapse" data-target="#manufacturers"><!-- anchor Starts -->
+<a href="#" data-toggle="collapse" data-target="#manufacturers">
 
 <i class="fa fa-fw fa-briefcase"></i> Manufacturers
 
 <i class="fa fa-fw fa-caret-down"></i>
 
 
-</a><!-- anchor Ends -->
+</a>
 
-<ul id="manufacturers" class="collapse"><!-- ul collapse Starts -->
+<ul id="manufacturers" class="collapse">
 
 <li>
 <a href="index.php?insert_manufacturer"> Insert Manufacturer </a>
@@ -241,10 +246,11 @@ else {
 <a href="index.php?view_manufacturers"> View Manufacturers </a>
 </li>
 
-</ul><!-- ul collapse Ends -->
+</ul>
 
 
-</li><!-- manufacturer li Ends -->
+</li> -->
+<!-- manufacturer li Ends -->
 
 
 <li><!-- li Starts -->
@@ -274,7 +280,8 @@ else {
 </li><!-- li Ends -->
 
 
-<li><!-- li Starts -->
+<!-- li Starts -->
+<!-- <li>
 
 <a href="#" data-toggle="collapse" data-target="#cat">
 
@@ -297,11 +304,13 @@ else {
 
 </ul>
 
-</li><!-- li Ends -->
+</li> -->
+<!-- li Ends -->
 
 
 
-<li><!-- store section li Starts -->
+<!-- store section li Starts -->
+<!-- <li>
 
 <a href="#" data-toggle="collapse" data-target="#store">
 
@@ -323,7 +332,8 @@ else {
 
 </ul>
 
-</li><!-- store section li Ends -->
+</li> -->
+<!-- store section li Ends -->
 
 
 <li><!-- contact us li Starts -->
@@ -371,17 +381,18 @@ else {
 </li><!-- about us li Ends -->
 
 
-<li><!-- Coupons Section li Starts -->
+<!-- Coupons Section li Starts -->
+<!-- <li>
 
-<a href="#" data-toggle="collapse" data-target="#coupons"><!-- anchor Starts -->
+<a href="#" data-toggle="collapse" data-target="#coupons">
 
 <i class="fa fa-fw fa-arrows-v"></i> Coupons
 
 <i class="fa fa-fw fa-caret-down"></i>
 
-</a><!-- anchor Ends -->
+</a>
 
-<ul id="coupons" class="collapse"><!-- ul collapse Starts -->
+<ul id="coupons" class="collapse">
 
 <li>
 <a href="index.php?insert_coupon"> Insert Coupon </a>
@@ -391,9 +402,10 @@ else {
 <a href="index.php?view_coupons"> View Coupons </a>
 </li>
 
-</ul><!-- ul collapse Ends -->
+</ul>
 
-</li><!-- Coupons Section li Ends -->
+</li> -->
+<!-- Coupons Section li Ends -->
 
 
 

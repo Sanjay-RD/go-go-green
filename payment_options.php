@@ -23,7 +23,8 @@ $customer_id = $row_customer['customer_id'];
 
 </p>
 
-<center><!-- center Starts -->
+<!-- center Starts -->
+<!-- <center>
 
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
   <input type="hidden" name="cmd" value="_s-xclick">
@@ -79,8 +80,10 @@ $i++;
 <input type="image" name="submit" width="500" height="270" src="images/paypal.png" >
 
 
-</form><!-- form Ends -->
+</form>
 
-</center><!-- center Ends -->
+
+</center> -->
+<!-- center Ends -->
 
 </div><!-- box Ends -->
